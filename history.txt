@@ -1,0 +1,11 @@
+<21.03.23>
+프로젝트 생성
+start.spring.io 에서 Maven, Java, boot:2.4.4, jar, java11 (lombok, Spring Web, Thymelef, Spring Data MongoDB)의존성 추가
+mongodb 4.4.4 다운받아 설치.  환경변수 추가(https://blog.naver.com/datarget/222190153814)
+mongo에서 : 
+	use admin
+	db.createUser({user:"alex",pwd:"alex",roles:["dbAdminAnyDatabase"]})
+	use alextest
+	db.createUser({user:"test",pwd:"test",roles:["readWrite","userAdmin"]})
+
+
