@@ -9,3 +9,7 @@ mongo에서 :
 	db.createUser({user:"test",pwd:"test",roles:["readWrite","userAdmin"]})
 
 
+단축키
+	Ctrl+space : 자동 import 추가
+	Ctrl+Shift+o : 안 쓰는것 자동 삭제
+Thymeleaf 강의 https://okdevtv.com/mib/spring/thymeleaf
